@@ -1,8 +1,9 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { HamburgerIcon, SearchIcon } from 'native-base';
 import { MapContainer } from '../map/mapContainer';
 import { POIContainer } from '../POI/PoiListContainer';
-import { HamburgerIcon, SearchIcon } from 'native-base';
+import { RootStackParamList } from '../types';
 
 const RootStack = createBottomTabNavigator<RootStackParamList>();
 
@@ -42,9 +43,4 @@ export const RootNavigator = () => {
             />
         </RootStack.Navigator>
     );
-};
-
-type RootStackParamList = {
-    Map: undefined;
-    POIList: undefined;
 };

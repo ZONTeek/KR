@@ -1,10 +1,18 @@
 import React from 'react';
-import { Avatar, Box, HStack, Text } from 'native-base';
-import { POI } from '../types';
+import { Avatar, HStack, Pressable, Text } from 'native-base';
+import { Location, POI, RootStackParamList } from '../types';
+import { StyleSheet } from 'react-native';
+import { useNavigation, NavigationProp } from '@react-navigation/native';
 
 export const POICard = ({ location, name, imageURL }: POI) => {
+    const navigation = useNavigation<NavigationProp<RootStackParamList>>();
+
+    const goToMap = (location: Location) => {
+        navigation.navigate('Map', { location });
+    };
+
     return (
-        <Box>
+        <Pressable style={styles.container} onPress={() => goToMap(location)}>
             <HStack alignItems={'center'} width={300} m={1}>
                 <Avatar
                     source={imageURL ? { uri: imageURL } : undefined}
@@ -16,6 +24,19 @@ export const POICard = ({ location, name, imageURL }: POI) => {
                     {name}
                 </Text>
             </HStack>
-        </Box>
+        </Pressable>
     );
 };
+
+const styles = StyleSheet.create({
+    container: {
+        borderRadius: 15,
+        backgroundColor: '#efdede',
+        paddingVertical: 20,
+        paddingHorizontal: 20,
+        marginBottom: 20
+    },
+    avatar: {
+        width: 30
+    }
+});

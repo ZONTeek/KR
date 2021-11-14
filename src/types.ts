@@ -4,9 +4,16 @@ export type POIList = {
 
 export type POI = {
     name: string;
-    location: {
-        longitude: number;
-        latitude: number;
-    };
+    location: Location;
     imageURL: string;
+};
+
+export type Location = {
+    longitude: number;
+    latitude: number;
+};
+
+export type RootStackParamList = {
+    Map?: { location: Location };
+    POIList: undefined;
 };
