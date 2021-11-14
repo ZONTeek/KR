@@ -1,8 +1,12 @@
 module.exports = {
-  "extends": "react-native-typescript",
-  "rules": {
-    "no-multi-spaces": ["error"],
-    "object-curly-spacing": ["error", "always"],
-    "no-unused-vars": ["error"]
-  }
-}
+    root: true,
+    extends: ['@react-native-community'],
+    rules: {
+        'no-multi-spaces': ['error'],
+        'no-unused-vars': ['error'],
+        indent: ['error', 4],
+        quotes: ['error', 'single'],
+        'no-multiple-empty-lines': ['error', { max: 2 }],
+        'comma-dangle': ['error', 'never']
+    }
+};
