@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Красная площадь",
+    "description": "Знаменитая площадь с Кремлем, собором Василия Блаженного XVI века и мавзолеем Ленина.",
+    "location": {
+      "latitude": 55.753991325516076,
+      "longitude": 37.62108051909279
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipOu1MSa_IU33KDC9N8kgoMdDhc1Bb7hGAjFwK_u=w408-h306-k-no"
+  },
+  {
+    "name": "Храм Василия Блаженного",
+    "description": "Собор XVI века с разноцветными куполами (ныне музей)",
+    "location": {
+      "latitude": 55.75253924994372,
+      "longitude": 37.623066694635824
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipNiI9AfBDvYVnwJzxWj0e-bW38MsIQCQ0ZgBAlx=w408-h611-k-no"
+  },
+  {
+    "name": "Воробьевы горы",
+    "description": "Обзорная площадка на вершине холма с панорамой города, видом на Москву-реку и олимпийский стадион",
+    "location": {
+      "latitude": 55.7108219087255,
+      "longitude": 37.541659125336146
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPHOpk9IrRpFD9Eon1BsDE-zJAWJ0bAAXUcSmxb=w408-h306-k-no"
+  }
+]

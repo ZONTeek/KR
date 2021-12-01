@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Дворцовая площадь",
+    "description": "Центральная площадь Санкт-Петербурга c Александровской колонной, воздвигнутой в честь победы над Наполеоном.",
+    "location": {
+      "latitude": 59.93922557017404,
+      "longitude":  30.314954375874972
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPDkoT34Xgww7OaxjfiGngjm-w2jk1f7QJOMGmF=w408-h271-k-no"
+  },
+  {
+    "name": "Кунсткамера",
+    "description": "Музей антропологии и этнографии с археологическими находками из России и других стран мира.",
+    "location": {
+      "latitude": 59.94195192236189,
+      "longitude": 30.304683798496132
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPhQ3O8jKW1kNwMHBYi_h8aL1z4UNCjdPWAygB8=w426-h240-k-no"
+  },
+  {
+    "name": "Зимний Дворец Петра I",
+    "description": "Музей в бывшей царской резиденции XVIII века в стиле барокко, где можно увидеть предметы из Европы и Азии.",
+    "location": {
+      "latitude": 59.94315563812107,
+      "longitude": 30.31790172362219
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipMDvqeLbbXNTBTP3sDKnCzqQ73u38qTNsVxEKjx=w408-h306-k-no"
+  }
+]

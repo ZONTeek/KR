@@ -6,6 +6,7 @@ export type POI = {
     name: string;
     location: Location;
     imageURL: string;
+    description?: string;
 };
 
 export type Location = {

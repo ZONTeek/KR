@@ -15,12 +15,18 @@ export const POICard = ({ location, name, imageURL }: POI) => {
         <Pressable style={styles.container} onPress={() => goToMap(location)}>
             <HStack alignItems={'center'} width={300} m={1}>
                 <Avatar
+                    key={imageURL}
                     source={imageURL ? { uri: imageURL } : undefined}
                     mr={5}
                     width={20}
                     height={20}
                 />
-                <Text fontSize={'lg'} textAlign={'center'} overflow={'hidden'}>
+                <Text
+                    fontSize={'lg'}
+                    textAlign={'center'}
+                    overflow={'hidden'}
+                    width={'70%'}
+                >
                     {name}
                 </Text>
             </HStack>

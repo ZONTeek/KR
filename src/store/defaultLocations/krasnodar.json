@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Парк Краснодар",
+    "description": "Один из самых современных и красивых парков европейской части России",
+    "location": {
+      "latitude": 45.041779018573536,
+      "longitude": 39.031868966966805
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipNcu89mbVwWqkzxUDuu3SP-1ghB3lhX0PyZVLip=w408-h305-k-no"
+  },
+  {
+    "name": "Театральный фонтан",
+    "description": "Фонтан на театральной площади летним вечером танцует под классическую музыку",
+    "location": {
+      "latitude": 45.03547033171371,
+      "longitude": 38.97530226202055
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipNQuJeLjA1K6T7o2hsq52vZawyCrntI1zTOPa7z=w408-h306-k-no"
+  },
+  {
+    "name": "Кинотеатр Аврора",
+    "description": "Знаменитый кинотеатр уже долго находится на реконструкции",
+    "location": {
+      "latitude": 45.05662150353567,
+      "longitude": 38.98198426550281
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipN0kpY62-8sV6DYprd3q0e5suPTKwImKinEORDj=w408-h254-k-no"
+  }
+]

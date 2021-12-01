@@ -1,10 +1,14 @@
-import { Text } from 'native-base';
 import React, { useEffect, useRef } from 'react';
-import MapView, { Callout, Marker } from 'react-native-maps';
+import MapView, { Marker } from 'react-native-maps';
 import { Location, POIList } from '../types';
 import { ToolTip } from './ToolTip';
 
 const DELTA = { latitudeDelta: 0.04, longitudeDelta: 0.05 };
+const initialRegion = {
+    latitude: 45.03547033171371,
+    longitude: 38.97530226202055,
+    ...DELTA
+};
 
 export const MapComponent: ({
     POIList,
@@ -21,7 +25,7 @@ export const MapComponent: ({
     }, [location]);
 
     return (
-        <MapView style={{ flex: 1 }} ref={mapRef}>
+        <MapView style={{ flex: 1 }} ref={mapRef} initialRegion={initialRegion}>
             {POIList.map((POI) => {
                 const { longitude, latitude } = POI.location;
                 return (
@@ -29,7 +33,11 @@ export const MapComponent: ({
                         coordinate={{ longitude, latitude }}
                         key={POI.imageURL}
                     >
-                        <ToolTip imageURL={POI.imageURL} name={POI.name} />
+                        <ToolTip
+                            imageURL={POI.imageURL}
+                            name={POI.name}
+                            description={POI.description}
+                        />
                     </Marker>
                 );
             })}

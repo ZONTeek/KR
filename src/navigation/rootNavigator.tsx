@@ -10,10 +10,10 @@ const RootStack = createBottomTabNavigator<RootStackParamList>();
 export const RootNavigator = () => {
     return (
         <RootStack.Navigator
-            initialRouteName={'POIList'}
+            initialRouteName={'Map'}
             screenOptions={{
                 headerShown: false,
-                tabBarStyle: { backgroundColor: 'purple' },
+                tabBarStyle: { backgroundColor: '#4E6151' },
                 tabBarShowLabel: false
             }}
         >
@@ -24,7 +24,7 @@ export const RootNavigator = () => {
                     tabBarIcon: ({ focused }) => (
                         <SearchIcon
                             size={8}
-                            color={focused ? 'gold' : 'black'}
+                            color={focused ? '#72BDA3' : '#5E8C61'}
                         />
                     )
                 }}
@@ -36,7 +36,7 @@ export const RootNavigator = () => {
                     tabBarIcon: ({ focused }) => (
                         <HamburgerIcon
                             size={8}
-                            color={focused ? 'gold' : 'black'}
+                            color={focused ? '#72BDA3' : '#5E8C61'}
                         />
                     )
                 }}

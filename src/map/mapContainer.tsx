@@ -5,7 +5,6 @@ import { selectPOI } from '../store/POIListReducer';
 
 export const MapContainer = ({ route }: any): JSX.Element => {
     const POIList = useSelector(selectPOI);
-    const { location } = route.params;
-
+    const location = route?.params?.location;
     return <MapComponent POIList={POIList} location={location} />;
 };

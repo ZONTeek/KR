@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import POIReducer from './POIListReducer';
+import POIReducer, { changeCatalog } from './POIListReducer';
 
 export const store = configureStore({
     reducer: {
