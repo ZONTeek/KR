@@ -25,5 +25,23 @@
       "longitude": 38.98198426550281
     },
     "imageURL": "https://lh5.googleusercontent.com/p/AF1QipN0kpY62-8sV6DYprd3q0e5suPTKwImKinEORDj=w408-h254-k-no"
+  },
+  {
+    "name": "Чистяковская роща",
+    "description": "Городской парк с мемориалом жертвам фашизма",
+    "location": {
+      "latitude": 45.05769032677863,
+      "longitude": 38.99386697431786
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipNx_yTn4OrkM7W3Yv5IhWqmfnqQ_Sm7QS2CTAcE=w426-h240-k-no"
+  },
+  {
+    "name": "Мост поцелуев",
+    "description": "С него открывается живописный вид на реку Кубань и набережную",
+    "location": {
+      "latitude": 45.0253485360285,
+      "longitude": 38.95780985551228
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipN9iuqyjEfbv0qU7HALQeozFn0bNB0PJNreAtnw=w408-h544-k-no"
   }
 ]

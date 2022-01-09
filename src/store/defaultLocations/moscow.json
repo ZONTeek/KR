@@ -25,5 +25,23 @@
       "longitude": 37.541659125336146
     },
     "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPHOpk9IrRpFD9Eon1BsDE-zJAWJ0bAAXUcSmxb=w408-h306-k-no"
+  },
+  {
+    "name": "Большой театр",
+    "description": "Театр в неоклассическом стиле с роскошными интерьерами, известный на весь мир",
+    "location": {
+      "latitude": 55.76004594869696,
+      "longitude": 37.61908848045783
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPqp4rN3MjH_YNHNHt_dAny2JQFIiAXKdutwKcF=w426-h240-k-no"
+  },
+  {
+    "name": "Третьяковская галерея",
+    "description": "Музей, в котором представлено более 180 000 произведений российского искусства",
+    "location": {
+      "latitude": 55.74148561362369,
+      "longitude": 37.6209604578483
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPDUfGO4t-NLBt7t-kJE1df0i2UAZbmGMg7Fyyh=w408-h270-k-no"
   }
 ]

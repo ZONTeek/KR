@@ -18,6 +18,15 @@
     "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPhQ3O8jKW1kNwMHBYi_h8aL1z4UNCjdPWAygB8=w426-h240-k-no"
   },
   {
+    "name": "Спас на Крови",
+    "description": "Музей в бывшей царской резиденции XVIII века в стиле барокко, где можно увидеть предметы из Европы и Азии.",
+    "location": {
+      "latitude": 59.94024239598293,
+      "longitude": 30.328942913736206
+    },
+    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipNmE_TGwurnHCboboUYA95Ex54iltuN6QIfm7QD=w408-h271-k-no"
+  },
+  {
     "name": "Зимний Дворец Петра I",
     "description": "Музей в бывшей царской резиденции XVIII века в стиле барокко, где можно увидеть предметы из Европы и Азии.",
     "location": {
@@ -25,5 +34,14 @@
       "longitude": 30.31790172362219
     },
     "imageURL": "https://lh5.googleusercontent.com/p/AF1QipMDvqeLbbXNTBTP3sDKnCzqQ73u38qTNsVxEKjx=w408-h306-k-no"
+  },
+  {
+    "name": "Исаакиевский собор",
+    "description": "Православный собор (ныне музей) с позолоченным куполом и роскошным убранством, построенный в 1818 году",
+    "location": {
+      "latitude": 59.93446936601167,
+      "longitude": 30.305669607018373
+    },
+    "imageURL": "https://lh5.googleusercontent.com/proxy/jEAMLq8G8H48MQngzcMC0xAjC5gzQlYnM-MhBLlHaGomYGIchmf19Cwmed7deRms_Fqvfk9aM2NEMM6ZWi9E1fuF7W7KY_RbcNL38tMHd56inOZeaKVzJaMXR0elOluYe6ULjawRKfvEma-NcM7gzrga2n0DHg=w408-h272-k-no"
   }
 ]

@@ -2,6 +2,7 @@ import React from 'react';
 import { Callout } from 'react-native-maps';
 import { Image, Text, VStack } from 'native-base';
 import { StyleSheet } from 'react-native';
+
 export const ToolTip = ({
     imageURL,
     name,

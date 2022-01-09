@@ -6,7 +6,7 @@ import Moscow from './defaultLocations/moscow.json';
 import SPB from './defaultLocations/saint-petersburg.json';
 
 const initialState = {
-    value: [...Moscow]
+    value: [...Krasnodar]
 };
 
 export const POIListSlice = createSlice({
