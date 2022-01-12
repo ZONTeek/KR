@@ -13,11 +13,13 @@ export const POIListSlice = createSlice({
     name: 'POIList',
     initialState,
     reducers: {
-        addPOI: (state, action: PayloadAction<POI>) => {
-            console.log('addPOI');
+        addPOI: (state, action: PayloadAction<any>) => {
+            state.value = [...state.value, action.payload];
         },
-        removePOI: (state, action: PayloadAction<POI>) => {
-            console.log('removePOI');
+        removePOI: (state, action: PayloadAction<string>) => {
+            state.value = state.value.filter(
+                (item) => item.name !== action.payload
+            );
         },
         changeCatalog: (state, action: PayloadAction<any>) => {
             switch (action.payload) {

@@ -7,9 +7,9 @@ import {
     HStack,
     View
 } from 'native-base';
-import { POI, POIList } from '../types';
 import { POICard } from './POICard';
 import { ChoseCatalogModal } from './ChooseCatalogModal';
+import { POI, POIList } from '../types';
 
 export const POIComponent = ({ POIList }: POIList): JSX.Element => {
     const [isModalOpen, setModalOpen] = useState(false);
